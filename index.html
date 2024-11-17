@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<!-- Laat de twee volgende lijnen staan -->
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+
+    <body onclick="">
+        <!-- Schrijf hier je HTML -->
+
+        <button onclick="generate_game(2,3)" id="button2x3">2X3</button>
+        <button onclick="generate_game(3,4)" id="button3x4">3X4</button>
+        <button onclick="generate_game(4,5)" id="button4x5">4X5</button>
+        <div id="game_container"></div> <!-- Dit is de naam van de container die we zullen gebruiken voor ons bord in JS te creëren -->
+        <div id="whos_turn"></div>
+        <button onclick="level(1)" id="level1">Level 1</button>
+        <button onclick="level(2)" id="level1">Level 2</button>
+        <button onclick="level(3)" id="level1">Level 3</button>
+        <div id="scoreboard"></div>
+    </body>
+    <script src="code.js"></script>
+</html>
+

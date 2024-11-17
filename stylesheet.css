@@ -1,0 +1,37 @@
+/* Schrijf hier je CSS */
+
+table {
+    border: 5px solid #61564A;
+    border-collapse: collapse;
+    color: #615650;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table td{
+    background-color: bisque;
+    height: 80px;
+    width: 80px;
+    border: 12px solid #61564A;
+    text-align: center;
+}
+
+body{
+    background-color: bisque;
+}
+
+.unflipped{
+    background-color: gray
+}
+
+#player1_counter{
+    font-size: 25px;
+    color: red
+}
+
+#player2_counter{
+    font-size: 25px;
+    color: blue
+}
