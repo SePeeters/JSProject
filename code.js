@@ -69,7 +69,7 @@ function generate_notif_html(){
 }
 
 function generate_scoreboard_html(){
-    return "<div id="+'"player1_counter"'+"> Player 1 has found "+ player1points + " pairs.</div>"+"<div id="+'"player2_counter"'+"> Player 2 has found "+ player2points + " pairss.</div>"
+    return "<div id="+'"player1_counter"'+"> Player 1 has found "+ player1points + " pairs.</div>"+"<div id="+'"player2_counter"'+"> Player 2 has found "+ player2points + " pairs.</div>"
 }
 
 function generate_game(length, width){
